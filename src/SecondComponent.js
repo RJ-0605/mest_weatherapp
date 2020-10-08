@@ -3,38 +3,30 @@
 import React from 'react';
 import './NewCssApp.css';
 import './Arrangeapp.css';
+import FirstComponent from './FirstComponent';
+import ThirdComponent from './ThirdComponent';
+import TempComponent from './TempComponent';
+import LocateComponent from './LocateComponent';
 
 
  function SecondComponent() {
+
+ 	    const cat='https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png'
+
+
  	return (
  		<div className="leftcolumn">
-   			<table className="tablefont">
-				  <tr>
-				    <th>Firstname</th>
-				    <th>Lastname</th>
-				    <th>Savings</th>
-				  </tr>
-				  <tr>
-				    <td>Peter</td>
-				    <td>Griffin</td>
-				    <td>$100</td>
-				  </tr>
-				  <tr>
-				    <td>Lois</td>
-				    <td>Griffin</td>
-				    <td>$150</td>
-				  </tr>
-				  <tr>
-				    <td>Joe</td>
-				    <td>Swanson</td>
-				    <td>$300</td>
-				  </tr>
-				  <tr>
-				    <td>Cleveland</td>
-				    <td>Brown</td>
-				    <td>$250</td>
-				  </tr>
-			</table>
+
+ 		<br/>
+   			<FirstComponent />
+      <br/>
+      <img src={cat}   style={{display: 'block' , margin:'auto',}}  />
+
+      <br/>
+      <br/>
+      		<TempComponent />
+      		
+       
  		</div>
 
  	);

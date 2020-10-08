@@ -1,3 +1,5 @@
+
+
  
  import React from 'react';
  import './NewCssApp.css';
@@ -5,10 +7,10 @@
 
 
 
- function FirstComponent() {
+ function LocateComponent() {
  	return (
  		<div>
-   			<h1 className="bigblue"> Weather App </h1>
+   			<p className="bigblue"> Accra , Ghana. </p>
    			
  		</div>
 
@@ -16,4 +18,4 @@
 
  }
 
- export default FirstComponent;
+ export default LocateComponent;

@@ -7,7 +7,7 @@
 
  function FourthComponent() {
  	return (
- 		<div className="rightcolumn">
+ 		<div >
    			<p className="bigblue"> Hi there </p>
  		</div>
 
