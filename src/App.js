@@ -1,6 +1,6 @@
 import React from 'react';
 import dogpic from './doggie.jpg';
-import drop from './wi-smoke.svg'
+
 import NavbarComponent from './NavbarComponent';
 import FirstComponent from './FirstComponent';
 import SecondComponent from './SecondComponent';
